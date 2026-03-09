@@ -1,0 +1,33 @@
+{
+  "productName": "spicy-scratchpad",
+  "version": "0.0.0",
+  "identifier": "com.spicy.scratchpad",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "devUrl": "http://localhost:1420",
+    "frontendDist": "../dist"
+  },
+  "bundle": {},
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "Bilingual Scratchpad",
+        "width": 700,
+        "height": 450,
+        "decorations": false,
+        "transparent": true,
+        "alwaysOnTop": true,
+        "center": true,
+        "visible": false,
+        "skipTaskbar": true,
+        "shadow": true
+      }
+    ],
+    "security": {
+      "csp": null
+    },
+    "macOSPrivateApi": true
+  }
+}

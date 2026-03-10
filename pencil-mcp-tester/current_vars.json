@@ -1,8 +1,0 @@
-{
-  "content": [
-    {
-      "type": "text",
-      "text": "{\"variables\":{\"bg-base\":{\"type\":\"color\",\"value\":\"#000000\"},\"bg-surface-1\":{\"type\":\"color\",\"value\":\"#0A0A0A\"},\"bg-surface-2\":{\"type\":\"color\",\"value\":\"#111111\"},\"bg-surface-hover\":{\"type\":\"color\",\"value\":\"#1A1A1A\"},\"border-accent\":{\"type\":\"color\",\"value\":\"#D4FF00\"},\"border-default\":{\"type\":\"color\",\"value\":\"#333333\"},\"border-strong\":{\"type\":\"color\",\"value\":\"#555555\"},\"border-subtle\":{\"type\":\"color\",\"value\":\"#222222\"},\"font-mono\":{\"type\":\"string\",\"value\":\"'JetBrains Mono', monospace\"},\"font-sans\":{\"type\":\"string\",\"value\":\"'Inter', sans-serif\"},\"signal-critical\":{\"type\":\"color\",\"value\":\"#FF003C\"},\"signal-info\":{\"type\":\"color\",\"value\":\"#00E5FF\"},\"signal-success\":{\"type\":\"color\",\"value\":\"#39FF14\"},\"signal-warning\":{\"type\":\"color\",\"value\":\"#FFB000\"},\"text-accent\":{\"type\":\"color\",\"value\":\"#D4FF00\"},\"text-inverse\":{\"type\":\"color\",\"value\":\"#000000\"},\"text-primary\":{\"type\":\"color\",\"value\":\"#FFFFFF\"},\"text-secondary\":{\"type\":\"color\",\"value\":\"#AAAAAA\"},\"text-tertiary\":{\"type\":\"color\",\"value\":\"#666666\"}}}"
-    }
-  ]
-}

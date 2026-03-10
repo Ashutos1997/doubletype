@@ -479,12 +479,18 @@ export default function App() {
                 if (isPaletteOpen) {
                     setIsPaletteOpen(false)
                     focusAndMoveCursorToEnd()
+                } else if (isSessionListOpen) {
+                    setIsSessionListOpen(false)
+                    focusAndMoveCursorToEnd()
+                } else if (isHelpOpen) {
+                    setIsHelpOpen(false)
+                    focusAndMoveCursorToEnd()
                 } else { animatedHide() }
             }
         }
         window.addEventListener("keydown", handleKeyDown)
         return () => window.removeEventListener("keydown", handleKeyDown)
-    }, [isPaletteOpen])
+    }, [isPaletteOpen, isSessionListOpen, isHelpOpen])
 
     useEffect(() => {
         if (isPaletteOpen) paletteRef.current?.focus()
@@ -842,6 +848,11 @@ export default function App() {
                                     </div>
                                 ))
                             )}
+                        </div>
+                        <div className="help-footer">
+                            <button className="help-close" onClick={() => setIsSessionListOpen(false)} style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+                                └─ {ui.close}
+                            </button>
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
-![온보딩/Onboarding](https://ibb.co/6J8wXQ8J)
-![메인 에디터/Main Editor](https://ibb.co/v69PFPzZ)
-![기능/Features](https://ibb.co/5XVDL6mW)
+![온보딩/Onboarding](https://i.ibb.co/5xk4KZkx/1-75341001.png)
+![메인 에디터/Main Editor](https://i.ibb.co/HfZzSzgn/2-27.png)
+![기능/Features](https://i.ibb.co/xKQv6DWS/3-2432.png)
 
 # 👾 Dualtype
 > **언어 전환 없이, 두 언어로 동시에 씁니다.**

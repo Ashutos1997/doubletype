@@ -30,7 +30,7 @@ export default function App() {
     const [isHelpOpen, setIsHelpOpen] = useState(false)
     const [copyFeedback, setCopyFeedback] = useState<string | null>(null)
     const [preferredLang, setPreferredLang] = useState<"eng" | "kor">(
-        navigator.language.startsWith("ko") ? "kor" : "eng"
+        (Intl.DateTimeFormat().resolvedOptions().locale.startsWith("ko") || navigator.language.startsWith("ko")) ? "kor" : "eng"
     )
     const [theme, setTheme] = useState<string>(localStorage.getItem("scratch_theme") || "default")
     const [isMuted, setIsMuted] = useState<boolean>(localStorage.getItem("scratch_muted") === "true")
@@ -46,7 +46,7 @@ export default function App() {
     const [isSessionListOpen, setIsSessionListOpen] = useState(false)
     const [uiLang, setUiLang] = useState<"en" | "ko">(
         (localStorage.getItem("scratch_uilang") as "en" | "ko") ||
-        (navigator.language.startsWith("ko") ? "ko" : "en")
+        ((Intl.DateTimeFormat().resolvedOptions().locale.startsWith("ko") || navigator.language.startsWith("ko")) ? "ko" : "en")
     )
 
     // UI translations
@@ -776,7 +776,10 @@ export default function App() {
                                             localStorage.removeItem("scratch_text")
                                             localStorage.removeItem("scratch_tags")
                                         } else if (confirmPending === "reset") {
+                                            const currentLang = uiLang;
                                             localStorage.clear()
+                                            localStorage.setItem("scratch_uilang", currentLang)
+
                                             setRawText("")
                                             setTags([])
                                             setTheme("default")

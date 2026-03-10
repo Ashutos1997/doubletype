@@ -1,4 +1,4 @@
-![온보딩/Onboarding](https://i.ibb.co/5xk4KZkx/1-75341001.png)
+![온보딩/Onboarding](https://i.ibb.co/23R3NJFX/1-75341001.png)
 ![메인 에디터/Main Editor](https://i.ibb.co/HfZzSzgn/2-27.png)
 ![기능/Features](https://i.ibb.co/xKQv6DWS/3-2432.png)
 

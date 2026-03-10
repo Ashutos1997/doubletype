@@ -779,6 +779,7 @@ export default function App() {
                                             const currentLang = uiLang;
                                             localStorage.clear()
                                             localStorage.setItem("scratch_uilang", currentLang)
+                                            setUiLang(currentLang)
 
                                             setRawText("")
                                             setTags([])

@@ -73,7 +73,7 @@ Dualtype is a specialized macOS Menu Bar application designed for the interstiti
 ## 🚀 Installation
 
 1. Download the latest `.dmg` from the **[Releases](https://github.com/Ashutos1997/Doubletype/releases)** page.
-2. Open the DMG and drag **Doubletypee.app** to your **Applications** folder.
+2. Open the DMG and drag **Doubletype.app** to your **Applications** folder.
 3. **Right click -> Open** to launch the first time (to bypass the unsigned app warning).
 4. Look for the `[ ]` split column icon in your top menu bar!
 
